@@ -16,7 +16,7 @@ ext {
     versionPatch = 1
 
     // カスタムパッケージ名
-    customPackageName = 'custom'
+    customPackageName = 'selenium'
 
     // アーティファクト関連
     group 'com.epion_t3'
