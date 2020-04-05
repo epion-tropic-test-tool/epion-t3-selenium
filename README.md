@@ -1,6 +1,4 @@
-# epion-t3-custom-template
-ETTT Custom Package Template Project
-
+# epion-t3-selenium
 [![Build Status](https://travis-ci.org/epion-tropic-test-tool/epion-t3-basic.svg?branch=master)](https://travis-ci.org/epion-tropic-test-tool/epion-t3-selenium)
 
 
