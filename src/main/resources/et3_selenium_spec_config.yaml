@@ -1379,6 +1379,62 @@ commands:
         description:
           - lang: ja_JP
             contents: "WebDriver/ブラウザを開始した際に指定した変数名を指定します。デフォルト値を利用する場合にも連番を想定して指定が必要です。"
+  ##########################
+  # WDGetHtmlSource
+  ##########################
+  - id: WDGetHtmlSource
+    summary:
+      - lang: ja_JP
+        contents: "操作中のWebDriver/BrowserのHTMLソースを取得します。"
+    testItem:
+      - order: 1
+        summary:
+          - lang: ja_JP
+            contents: "HTMLソースを取得します。"
+    function:
+      - order: 1
+        summary:
+          - lang: ja_JP
+            contents: "操作中のWebDriver/BrowserのHTMLソースを取得します。"
+    structure:
+      - order: 1
+        name: id
+        required: true
+        type: string
+        summary:
+          - lang: ja_JP
+            contents: "コマンドのID"
+      - order: 2
+        name: command
+        required: true
+        type: string
+        summary:
+          - lang: ja_JP
+            contents: "「WDGetHtmlSource」固定"
+      - order: 3
+        name: summary
+        required: false
+        type: string
+        summary:
+          - lang: ja_JP
+            contents: "コマンドの概要（任意）"
+      - order: 4
+        name: description
+        required: false
+        type: string
+        summary:
+          - lang: ja_JP
+            contents: "コマンドの詳細（任意）"
+      - order: 5
+        name: refWebDriver
+        required: true
+        type: string
+        summary:
+          - lang: ja_JP
+            contents: "対象とするWebDriver/ブラウザを格納した変数名を指定 # (1)"
+        description:
+          - lang: ja_JP
+            contents: "WebDriver/ブラウザを開始した際に指定した変数名を指定します。デフォルト値を利用する場合にも連番を想定して指定が必要です。"
 #####################################
 # メッセージ定義
 #####################################
