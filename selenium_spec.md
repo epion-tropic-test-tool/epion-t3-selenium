@@ -39,7 +39,7 @@ Seleniumを利用したWebブラウザテストを実行するための機能を
 |[WDClickElement](#WDClickElement)|指定した要素をクリックします。  |||
 |[WDSendKeysElement](#WDSendKeysElement)|指定した要素に対して入力を行います。  |||
 |[WDClearSendKeysElement](#WDClearSendKeysElement)|指定した要素に対して入力を行います。  |||
-|[WDScreenShot](#WDScreenShot)|操作中のWebDriver/Browserのスクリーンショットを取得します。  |||
+|[WDScreenShot](#WDScreenShot)|操作中のWebDriver/BrowserのHTMLソースを取得します。  |||
 |[WDSendKeysElements](#WDSendKeysElements)|指定した要素に対して入力を行います。  |||
 
 ------
@@ -451,19 +451,19 @@ commands :
 ------
 
 ### WDScreenShot
-操作中のWebDriver/Browserのスクリーンショットを取得します。
+操作中のWebDriver/BrowserのHTMLソースを取得します。
 #### Command Type
 - Assert : No
 - Evidence : No
 
 #### Functions
-- 操作中のWebDriver/Browserのスクリーンショットを取得します。
+- 操作中のWebDriver/BrowserのHTMLソースを取得します。
 
 #### Structure
 ```yaml
 commands : 
   id : コマンドのID
-  command : 「WDScreenShot」固定
+  command : 「WDGetHtmlSource」固定
   summary : コマンドの概要（任意）
   description : コマンドの詳細（任意）
   refWebDriver : 対象とするWebDriver/ブラウザを格納した変数名を指定 # (1)
